@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".massage"
+
+    android:gravity="center"
+    >
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="add new number"
+        android:layout_weight="1"
+        android:id="@+id/addnewnumber"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/Blue"
+        android:gravity="center"
+        android:text="add number"
+        android:textColor="@color/text"
+        android:layout_margin="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="massage for help"
+        android:id="@+id/massage"
+        android:gravity="center"
+
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/Blue"
+        android:text="click for help "
+        android:layout_margin="20sp"
+        android:textColor="@color/text" />
+
+</LinearLayout>

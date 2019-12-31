@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Help</string>
+    <string name="edit">edit</string>
+    <string name="ans">ans is 4 </string>
+    <string name="click">click here</string>
+    <string name="call">call 999</string>
+    <string name="lesson">lessons</string>
+    <string name="massage">massage</string>
+    <string name="donatoin">donation</string>
+    <string name="weather">weather</string>
+    <string name="fire_accidents">Fire Accidents</string>
+</resources>
